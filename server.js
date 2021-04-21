@@ -3,7 +3,7 @@ var app = require('express')(); // Create an instance of an Express app
 var mobileApp = require('azure-mobile-apps')(); // Create an instance of a Mobile App with default settings
 
 mobileApp.tables.add('Dozer'); // Create a table for 'Dozer' with default settings
-mobileApp.tables.add('CheckList_Table');
+mobileApp.tables.add('DozerStatusData');
 mobileApp.tables.add('MobileEquipmentDB');
 
 app.use(mobileApp);
