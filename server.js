@@ -5,6 +5,7 @@ var mobileApp = require('azure-mobile-apps')(); // Create an instance of a Mobil
 mobileApp.tables.add('Dozer'); // Create a table for 'Dozer' with default settings
 mobileApp.tables.add('DozerStatusData');
 mobileApp.tables.add('MobileEquipmentDB');
+mobileApp.tables.add('CheckListDB');
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
