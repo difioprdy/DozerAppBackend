@@ -7,6 +7,7 @@ mobileApp.tables.add('DozerStatusData');
 mobileApp.tables.add('MobileEquipmentDB');
 mobileApp.tables.add('CheckListDB');
 mobileApp.tables.add('Employee_Data');
+mobileApp.tables.add('UserReport');
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
