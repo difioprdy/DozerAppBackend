@@ -9,7 +9,7 @@ mobileApp.tables.add('CheckListDB');
 mobileApp.tables.add('Employee_Data');
 mobileApp.tables.add('UserReport');
 mobileApp.tables.add('TransactionID');
-mobileApp.tables.add('FinalReport');
+mobileApp.tables.add('FinalUserReport');
 
 
 app.use(mobileApp);
